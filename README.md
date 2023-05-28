@@ -1,6 +1,6 @@
 # Schema First! Learn Versatile Knowledge Graph Embeddings by Capturing Semantics with MASCHInE
 
-For the sake of reproducibility, below are provided the necessary resources for replicating the experiments presented in our paper.
+For the sake of reproducibility, resources for replicating the experiments presented in our paper are provided below.
 
 ## Datasets
 The ``datasets/`` folder contains the following datasets: ``FB14K``, ``DB77K``, and ``YAGO14K`` [1].
