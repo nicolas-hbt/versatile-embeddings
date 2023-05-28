@@ -15,7 +15,34 @@ Note that you can bring your own datasets (with all the required files) and run 
 `python get_prototype.py --dataset mydataset`
 
 ## Embeddings
-Pre-trained embeddings' files are provided in the ``datasets/`` folder. These correspond to the embeddings found at the best epoch on the validation, for each combination of model, setting, and dataset. In particular, for each dataset the ``MASCHInE-P1/`` (resp. ``MASCHInE-P2/``) folder contain embeddings of the best models **after** the fine-tuning step.
+Pre-trained embeddings' files are provided in the ``datasets/`` folder. These correspond to the embeddings found at the best epoch on the validation, for each combination of model, setting, and dataset. In particular, for each dataset the ``MASCHInE-P1/`` (resp. ``MASCHInE-P2/``) folder contain embeddings of the best models **after** the fine-tuning step. 
+
+## Hyperparameters
+Below are reported the best hyperparameters found, which were used for training models:
+
+| YAGO14K  | dimension | learning rate | batch size | regularizer | regularizer weight |
+|----------|-----------|---------------|------------|-------------|--------------------|
+| TransE   | 100       | 0.001         | 2048       | L2          | 0.001              |
+| DistMult | 100       | 0.001         | 2048       | L2          | 0.0001             |
+| ComplEx  | 100       | 0.01          | 2048       | L2          | 0.1                |
+| ConvE    | 200       | 0.001         | 512        | None        | None               |
+| TuckER   | 200       | 0.001         | 128        | None        | None               |
+
+| FB14K  | dimension | learning rate | batch size | regularizer | regularizer weight |
+|----------|-----------|---------------|------------|-------------|--------------------|
+| TransE   | 200       | 0.001         | 2048       | L2          | 0.001              |
+| DistMult | 200       | 0.001         | 2048       | L2          | 0.01             |
+| ComplEx  | 200       | 0.001          | 2048       | L2          | 0.1                |
+| ConvE    | 200       | 0.001         | 128        | None        | None               |
+| TuckER   | 200       | 0.0005         | 128        | None        | None               |
+
+| DB77K  | dimension | learning rate | batch size | regularizer | regularizer weight |
+|----------|-----------|---------------|------------|-------------|--------------------|
+| TransE   | 200       | 0.001         | 2048       | L2          | 0.001              |
+| DistMult | 200       | 0.001         | 2048       | L2          | 0.01             |
+| ComplEx  | 200       | 0.001          | 2048       | L2          | 0.1                |
+| ConvE    | 200       | 0.001         | 512        | None        | None               |
+| TuckER   | 200       | 0.001         | 128        | None        | None               |
 
 ## Entity Clustering
 Clustering experiments are performed following the guidelines and code provided in https://github.com/mariaangelapellegrino/Evaluation-Framework.
