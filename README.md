@@ -24,4 +24,4 @@ Clustering experiments are performed following the guidelines and code provided 
 Node classification experiments are performed following the guidelines and code provided in https://github.com/janothan/DL-TC-Generator.
 
 ## References
-[1] Hubert, N., Monnin, P., Brun, A., & Monticolo, D. (2023). [Sem@K: Is my knowledge graph embedding model semantic-aware?] (https://arxiv.org/abs/2301.05601)
+[1] Hubert, N., Monnin, P., Brun, A., & Monticolo, D. (2023). [Sem@K: Is my knowledge graph embedding model semantic-aware?](https://arxiv.org/abs/2301.05601)
