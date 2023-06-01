@@ -52,10 +52,14 @@ Below are reported the best hyperparameters found, which were used for training 
 Link prediction experiments can be replicated using the code provided in the ``_vanilla/`` and ``_transfer/`` folders.
 
 ## Entity Clustering
-Clustering experiments are performed following the guidelines and code provided in https://github.com/mariaangelapellegrino/Evaluation-Framework.
+Clustering experiments are performed following the guidelines and code provided in https://github.com/mariaangelapellegrino/Evaluation-Framework [2].
 
 ## Node Classification
-Node classification experiments are performed following the guidelines and code provided in https://github.com/janothan/DL-TC-Generator.
+Node classification experiments are performed following the guidelines and code provided in https://github.com/janothan/DL-TC-Generator [3].
 
 ## References
 [1] Hubert, N., Monnin, P., Brun, A., & Monticolo, D. (2023). [Enhancing Knowledge Graph Embedding Models with Semantic-driven Loss Functions. arXiv preprint arXiv:2303.00286](https://arxiv.org/abs/2303.00286).
+
+[2] Pellegrino, M. A., Cochez, M., Garofalo, M., & Ristoski, P. (2019). [A configurable evaluation framework for node embedding techniques.](https://link.springer.com/chapter/10.1007/978-3-030-32327-1_31) In The Semantic Web: ESWC 2019 Satellite Events: ESWC 2019 Satellite Events, Portorož, Slovenia, June 2–6, 2019, Revised Selected Papers 16 (pp. 156-160). Springer International Publishing.
+
+[3] Portisch, J., & Paulheim, H. (2022, October). [The DLCC node classification benchmark for analyzing knowledge graph embeddings.](https://arxiv.org/abs/2207.06014) In The Semantic Web–ISWC 2022: 21st International Semantic Web Conference, Virtual Event, October 23–27, 2022, Proceedings (pp. 592-609). Cham: Springer International Publishing.
