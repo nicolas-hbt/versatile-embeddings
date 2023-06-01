@@ -18,7 +18,7 @@ Note that you can bring your own datasets (with all the required files) and run 
 Pre-trained embeddings' files are provided in the ``datasets/`` folder. These correspond to the embeddings found at the best epoch on the validation, for each combination of model, setting, and dataset. In particular, for each dataset the ``MASCHInE-P1/`` (resp. ``MASCHInE-P2/``) folder contain embeddings of the best models **after** the fine-tuning step.
 
 We also made our scripts for training and testing available. These will be refactored upon acceptance.
-In particular, the ``_vanilla/`` folder contains all the necessary files to train and test knowledge graph embedding models in the vanilla setting. The ``_transfer/`` folder has the same purpose, but for training and testing MASCHInE-P1 and MASCHInE-P2.
+In particular, the ``_vanilla/`` folder contains all the necessary files to train and test knowledge graph embedding models in the vanilla setting. The ``_transfer/`` folder has the same purpose, but for training and testing MASCHInE-P1 and MASCHInE-P2. Before using these scripts, you should first place them at the root of this repo (i.e. in their parent folder).
 
 ## Hyperparameters
 Below are reported the best hyperparameters found, which were used for training models:
