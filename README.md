@@ -1,11 +1,11 @@
-# Schema First! Learn Versatile Knowledge Graph Embeddings by Capturing Semantics with MASCHInE
+# [Schema First! Learn Versatile Knowledge Graph Embeddings by Capturing Semantics with MASCHInE](https://arxiv.org/abs/2306.03659)
 
 For the sake of reproducibility, resources for replicating the experiments presented in our paper are provided below.
 
 ## Datasets
 The ``datasets/`` folder contains the following datasets: ``FB14K``, ``DB77K``, and ``YAGO14K`` [1].
 
-## Building protographs
+## Building Protographs
 Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``FB14K``, ``DB77K``, and ``YAGO14K`` at the same time, please run the following commands:
 
 `python get_prototype.py --dataset FB14K && python get_prototype.py --dataset DB77K && python get_prototype.py --dataset YAGO14K`
