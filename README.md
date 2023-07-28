@@ -1,4 +1,4 @@
-# [Schema First! Learn Versatile Knowledge Graph Embeddings by Capturing Semantics with MASCHInE](https://arxiv.org/abs/2306.03659)
+# Schema First! Learn Versatile Knowledge Graph Embeddings by Capturing Semantics with MASCHInE
 
 For the sake of reproducibility, resources for replicating the experiments presented in our paper are provided below.
 
