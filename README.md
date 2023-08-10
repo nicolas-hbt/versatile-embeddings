@@ -6,9 +6,9 @@ For the sake of reproducibility, resources for replicating the experiments prese
 The ``datasets/`` folder contains the following datasets: ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` [1].
 
 ## Building Protographs
-Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` at the same time, please run the following commands:
+Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``YAGO14K``, ``FB15k187`` (renamed as ``FB14K`` for short), and ``DBpedia77k`` (``DB77K`` for short) at the same time, please run the following commands:
 
-`python get_prototype.py --dataset FB14K && python get_prototype.py --dataset DB77K && python get_prototype.py --dataset YAGO14K`
+`python get_prototype.py --dataset YAGO14K && python get_prototype.py --dataset FB14K && python get_prototype.py --dataset DB77K`
 
 Note that you can bring your own datasets (with all the required files) and run the following command:
 
