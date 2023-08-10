@@ -5,17 +5,23 @@ For the sake of reproducibility, resources for replicating the experiments prese
 ## Datasets
 The ``datasets/`` folder contains the following datasets: ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` [1].
 
+Statistics for these datasets as well as their corresponding protographs are reported in the following two tables.
 
-| Dataset    |       | $|\mathcal{E}|$ | $|\mathcal{R}|$ | $|\mathcal{T}|$ |
+
+| Dataset     | #Classes | #HierarchyDepth | #Entities | #Relations | #Triples (train) | #Triples (valid) | #Triples (test) |
+|-------------|-----------------|----------------|-----------------|-----------------|-------------------------|--------------------------|------------------------|
+| YAGO14k     | 954             | 5              | 14,178          | 37              | 18,263                  | 472                      | 448                    |
+| FB15k187    | 624             | 2              | 14,305          | 187             | 245,350                 | 15,256                   | 17,830                 |
+| DBpedia77k  | 280             | 8              | 76,651          | 150             | 140,760                 | 16,334                   | 32,934                 |
+
+
+| Dataset    |  Protograph     | #Entities | #Relations | #Triples |
 |------------|-------|-----------------|-----------------|-----------------|
-| YAGO14k    | KG    | 14,178          | 37              | 19,183          |
-|            | P1    | 22              | 37              | 37              |
+|  YAGO14K          | P1    | 22              | 37              | 37              |
 |            | P2    | 590             | 37              | 4,959           |
-| FB15k187   | KG    | 14,305          | 187             | 278,436         |
-|            | P1    | 138             | 187             | 187             |
+|  FB15k187          | P1    | 138             | 187             | 187             |
 |            | P2    | 138             | 187             | 187             |
-| DBpedia77k | KG    | 76,651          | 150             | 190,028         |
-|            | P1    | 55              | 150             | 150             |
+|   DBpedia77k         | P1    | 55              | 150             | 150             |
 |            | P2    | 186             | 150             | 3,210           |
 
 
