@@ -3,10 +3,10 @@
 For the sake of reproducibility, resources for replicating the experiments presented in our paper are provided below.
 
 ## Datasets
-The ``datasets/`` folder contains the following datasets: ``FB14K``, ``DB77K``, and ``YAGO14K`` [1].
+The ``datasets/`` folder contains the following datasets: ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` [1].
 
 ## Building Protographs
-Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``FB14K``, ``DB77K``, and ``YAGO14K`` at the same time, please run the following commands:
+Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` at the same time, please run the following commands:
 
 `python get_prototype.py --dataset FB14K && python get_prototype.py --dataset DB77K && python get_prototype.py --dataset YAGO14K`
 
@@ -31,7 +31,7 @@ Below are reported the best hyperparameters found, which were used for training 
 | ConvE    | 200       | 0.001         | 512        | None        | None               |
 | TuckER   | 200       | 0.001         | 128        | None        | None               |
 
-| FB14K  | dimension | learning rate | batch size | regularizer | regularizer weight |
+| FB15k187  | dimension | learning rate | batch size | regularizer | regularizer weight |
 |----------|-----------|---------------|------------|-------------|--------------------|
 | TransE   | 200       | 0.001         | 2048       | L2          | 0.001              |
 | DistMult | 200       | 0.001         | 2048       | L2          | 0.01             |
@@ -39,7 +39,7 @@ Below are reported the best hyperparameters found, which were used for training 
 | ConvE    | 200       | 0.001         | 128        | None        | None               |
 | TuckER   | 200       | 0.0005         | 128        | None        | None               |
 
-| DB77K  | dimension | learning rate | batch size | regularizer | regularizer weight |
+| DBpedia77K  | dimension | learning rate | batch size | regularizer | regularizer weight |
 |----------|-----------|---------------|------------|-------------|--------------------|
 | TransE   | 200       | 0.001         | 2048       | L2          | 0.001              |
 | DistMult | 200       | 0.001         | 2048       | L2          | 0.01             |
@@ -58,7 +58,7 @@ Clustering experiments are performed following the guidelines and code provided 
 Node classification experiments are performed following the guidelines and code provided in https://github.com/janothan/DL-TC-Generator [3].
 
 ## References
-[1] Hubert, N., Monnin, P., Brun, A., & Monticolo, D. (2023). [Enhancing Knowledge Graph Embedding Models with Semantic-driven Loss Functions. arXiv preprint arXiv:2303.00286](https://arxiv.org/abs/2303.00286).
+[1] Hubert, N., Monnin, P., Brun, A., & Monticolo, D. (2023). [Treat Different Negatives Differently: Enriching Loss Functions with Domain and Range Constraints for Link Prediction](https://arxiv.org/abs/2303.00286).
 
 [2] Pellegrino, M. A., Cochez, M., Garofalo, M., & Ristoski, P. (2019). [A configurable evaluation framework for node embedding techniques.](https://link.springer.com/chapter/10.1007/978-3-030-32327-1_31) In The Semantic Web: ESWC 2019 Satellite Events: ESWC 2019 Satellite Events, Portorož, Slovenia, June 2–6, 2019, Revised Selected Papers 16 (pp. 156-160). Springer International Publishing.
 
