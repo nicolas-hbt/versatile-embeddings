@@ -5,6 +5,21 @@ For the sake of reproducibility, resources for replicating the experiments prese
 ## Datasets
 The ``datasets/`` folder contains the following datasets: ``YAGO14K``, ``FB15k187``, and ``DBpedia77k`` [1].
 
+
+| Dataset    |       | $|\mathcal{E}|$ | $|\mathcal{R}|$ | $|\mathcal{T}|$ |
+|------------|-------|-----------------|-----------------|-----------------|
+| YAGO14k    | KG    | 14,178          | 37              | 19,183          |
+|            | P1    | 22              | 37              | 37              |
+|            | P2    | 590             | 37              | 4,959           |
+| FB15k187   | KG    | 14,305          | 187             | 278,436         |
+|            | P1    | 138             | 187             | 187             |
+|            | P2    | 138             | 187             | 187             |
+| DBpedia77k | KG    | 76,651          | 150             | 190,028         |
+|            | P1    | 55              | 150             | 150             |
+|            | P2    | 186             | 150             | 3,210           |
+
+
+
 ## Building Protographs
 Two heuristics for building protographs are presented in our paper. In order to build the required protographs for ``YAGO14K``, ``FB15k187`` (renamed as ``FB14K`` for short), and ``DBpedia77k`` (``DB77K`` for short) at the same time, please run the following commands:
 
